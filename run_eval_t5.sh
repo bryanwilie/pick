@@ -1,0 +1,20 @@
+CUDA_VISIBLE_DEVICES=5 python inference.py \
+   --model_name_or_path="save/t5-small_wow_tdhkn_valid_seen_3dhuttr_noknletitbe_npunosettings_adddatano_maxseqlen512_bs8_gradacc1_lr0.0005_spktokenTrue_!pad_10.0epoch_wd0.0_ws0" \
+   --tokenizer_name="t5-small" \
+   --dataset_name="wow" \
+   --max_seq_len=512 \
+   --padding_side="left" \
+   --experiment_mode="tdhkn" \
+   --dh_uttr_count=3 \
+   --use_speaker_token \
+   --batch_size=1 \
+   --num_beams=10 \
+   --num_return_sequences=10 \
+   --exploration_filter="fed_turnlv_bsc_knunigramf1" \
+   --addprompt_w_n_gold_words=0 \
+   --sep_token="\n" \
+   --prompt_resp_sep_token="" \
+   --pad_token="!" \
+   --min_length=10 \
+   --max_length=80 \
+   --seed=0 > "log/run_exp_t5_wow_beam10.log"
