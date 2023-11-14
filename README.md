@@ -15,11 +15,11 @@ This is the repo for the paper: [PICK: Polished & Informed Candidate Scoring for
         - `mv caffeinated-pandas caffeinated_pandas`
 3. Finetune your model using `run_ft_*.sh`
 4. Do inference with your model using `run_eval_*.sh`
-5. Score your generations further with other metrices, i.e. [FED](https://github.com/Shikib/fed.git), by cloning it to your local.
+5. Score your generations further with other metrics, i.e. [FED](https://github.com/Shikib/fed.git), by cloning it to your local.
     
 ## Citation
 
-This work has been accepted by AACL-IJCNLP 2023 and you can find the details [in the paper](https://arxiv.org/pdf/2309.10413.pdf) (the link to AACL paper still currently not yet ready). Please cite our work if you find it useful.
+This work is published at AACL-IJCNLP 2023 and you can find the details [in the paper](https://arxiv.org/pdf/2309.10413.pdf) (the link to AACL2023 paper is still currently not yet ready). Please cite our work if you find it useful.
 ```
 @inproceedings{wilie2023pick,
   author    = {Wilie, Bryan  and  Xu, Yan  and  Chung, Willy  and  
