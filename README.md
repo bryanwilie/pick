@@ -1,6 +1,6 @@
 # PICK: Polished & Informed Candidate Scoring for Knowledge-Grounded Dialogue Systems
 
-This is the repo for the paper: [PICK: Polished & Informed Candidate Scoring for Knowledge-Grounded Dialogue Systems](https://arxiv.org/pdf/2309.10413.pdf). This framework addresses the key challenges in knowledge-grounded dialogue systems, such as hallucination and lack of coherence, through a generation re-scoring framework that empowers models to generate faithful and relevant responses without requiring additional labeled data or model tuning. Further details could be found [in the paper](https://arxiv.org/pdf/2309.10413.pdf).
+This is the repo for the paper: [PICK: Polished & Informed Candidate Scoring for Knowledge-Grounded Dialogue Systems](https://aclanthology.org/2023.ijcnlp-main.63/). This framework addresses the key challenges in knowledge-grounded dialogue systems, such as hallucination and lack of coherence, through a generation re-scoring framework that empowers models to generate faithful and relevant responses without requiring additional labeled data or model tuning. Further details could be found [in the paper](https://aclanthology.org/2023.ijcnlp-main.63.pdf).
 
 ## Steps:
 1. Make sure all requirements are installed, or install it via: `pip install -r requirements.txt`
@@ -19,7 +19,7 @@ This is the repo for the paper: [PICK: Polished & Informed Candidate Scoring for
     
 ## Citation
 
-This work is published at AACL-IJCNLP 2023 and you can find the details [in the paper](https://arxiv.org/pdf/2309.10413.pdf) (the link to AACL2023 paper is still currently not yet ready). Please cite our work if you find it useful.
+This work is published at AACL-IJCNLP 2023 and you can find the details [in the paper](https://aclanthology.org/2023.ijcnlp-main.63.pdf). Please cite our work if you find it useful.
 ```
 @inproceedings{wilie2023pick,
   author    = {Wilie, Bryan  and  Xu, Yan  and  Chung, Willy  and  
